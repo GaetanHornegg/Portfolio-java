@@ -1,0 +1,390 @@
+.body {
+    background-color: #222222;
+    color: #DDDDDD;
+
+}
+
+@media(max-width: 420px){
+    
+    .h1-principale{
+        font-size: 2em;
+        text-align: center;
+        margin-top: 1em;
+    }
+    .h2-principale{
+        text-align: center;
+        text-decoration: underline;
+        margin-top: 1em;
+
+    }
+    .p-principale{
+        text-align: justify ;
+        margin: 2em;
+    }
+    .p-projet{
+        margin-right: 1em;
+        text-align: justify;
+    }
+    .p-orel{
+        margin-left: 3em;
+    }
+    .s-home{
+        margin-left: -3em;
+    }
+    .freshy{
+        margin-left: 3em;
+    }
+    footer img{
+        width: 3em;
+        margin-left: 15%;
+    }
+    footer{
+        display: flex   ;
+        background-color: black ;
+        color: white;
+    }
+    footer p{
+        margin-top: 10%;
+    }
+    .mail{
+        margin-left: 40%;
+        margin-top: -10%;
+    }
+    img {
+        margin-left: 1em;
+        width: 70%;
+    }
+    .modelisation{
+        display: flex;
+    }
+    .h2-projet{
+        text-decoration: underline;
+        text-align: center;
+        font-size: large;
+        margin-bottom: 2em;
+        margin-top: 2em;
+    }
+    .ced{
+        display: flex;
+    }
+    .JV {
+        display: flex;
+    }
+    .CDI{
+        display: flex;
+    }
+    .CDEB{
+        display: flex;
+    }
+    .div1{
+        margin: 10em auto;
+        width: 20em ;
+        background-color: #f7e35f;
+
+    }
+    .boite{
+        transform: rotate(15deg) scale(1);
+        
+    }
+    .p-aprop{
+        text-align: center;
+    }
+    
+}
+
+@media (min-width:421px ) and (max-width: 780px){
+    .h1-principale{
+        font-size: 2em;
+        text-align: center;
+        margin-top: 1em;
+    }
+    .h2-principale{
+        text-align: center;
+        text-decoration: underline;
+        margin-top: 1em;
+
+    }
+    .p-principale{
+        text-align: justify ;
+        margin: 3em;
+        font-size: large;
+    }
+    footer img{
+        width: 3em;
+        margin-left: 30%;
+        margin-top: 5%;
+    }
+    footer{
+        display: flex   ;
+        background-color: black ;
+        color: white;
+    }
+    footer p{
+        margin-top: 10%;
+    }
+    .mail{
+        margin-left: 75%;
+        margin-top: -10%;
+    }
+    .p-projet{
+        margin-right: 1em;
+        text-align: justify;
+    }
+    .p-orel{
+        margin-left: 6em;
+    }
+    .s-home{
+        margin-left: -6em;
+    }
+    .freshy{
+        margin-left: 6em;
+    }
+    .modelisation{
+        display: flex;
+    }
+    .h2-projet{
+        text-decoration: underline;
+        text-align: center;
+        font-size: large;
+        margin-bottom: 2em;
+        margin-top: 2em;
+    }
+    .ced{
+        display: flex;
+    }
+    .JV {
+        display: flex;
+    }
+    .CDI{
+        display: flex;
+    }
+    .CDEB{
+        display: flex;
+    }
+    img {
+        margin-left: 2em;
+        width: 70%;
+    }
+    .div1{
+        margin: 10em auto;
+        width: 20em ;
+        background-color: #f7e35f;
+    }
+    .boite{
+        transform: rotate(15deg) scale(1);
+    }
+    .p-aprop{
+        text-align: center;
+    }
+}
+
+@media (min-width:781px ) and (max-width: 1224px ){
+    .h1-principale{
+        font-size: 2em;
+        text-align: center;
+        margin-top: 1em;
+    }
+    .h2-principale{
+        text-align: center;
+        text-decoration: underline;
+        margin-top: 1em;
+
+    }
+    .p-principale{
+        text-align: justify ;
+        margin: 3em;
+        font-size: x-large;
+    }
+    footer img{
+        width: 4em;
+        margin-left: 100%;
+        margin-top: 5%;
+    }
+    footer{
+        display: flex   ;
+        background-color: black ;
+        color: white;
+    }
+    footer p{
+        margin-top: 10%;
+    }
+    .mail{
+        margin-left: 150%;
+        margin-top: -10%;
+        font-size: large;
+    }
+    .p-projet{
+        margin-right: 4em;
+        text-align: justify;
+        font-size: larger;
+        margin-top: 3em;
+    }
+    .p-orel{
+        margin-left: 6em;
+    }
+    .s-home{
+        margin-left: -6em;
+    }
+    .freshy{
+        margin-left: 6em;
+    }
+    .modelisation{
+        display: flex;
+    }
+    .h2-projet{
+        text-decoration: underline;
+        text-align: center;
+        font-size: large;
+        margin-bottom: 2em;
+        margin-top: 2em;
+    }
+    .ced{
+        display: flex;
+    }
+    .JV {
+        display: flex;
+    }
+    .CDI{
+        display: flex;
+    }
+    .CDEB{
+        display: flex;
+    }
+    img {
+        margin-left: 2em;
+        width: 70%;
+    }
+    .div1{
+        margin: 10em auto;
+        width: 20em ;
+        background-color: #f7e35f;
+    }
+    .boite{
+        transform: rotate(15deg) scale(1);
+    }
+    .p-aprop{
+        text-align: center;
+    }
+}
+
+@media (min-width:1225px ) and (max-width: 1980px ){
+    .h1-principale{
+        font-size: 2em;
+        text-align: center;
+        margin-top: 1em;
+        font-size: 300%;
+    }
+    .h2-principale{
+        text-align: center;
+        text-decoration: underline;
+        margin-top: 1em;
+        font-size: 250%;
+
+    }
+    .p-principale{
+        text-align: justify ;
+        margin: 3em;
+        font-size: x-large;
+        font-size: 200%;
+    }
+    footer img{
+        width: 7em;
+        margin-left: 100%;
+        margin-top: 5%;
+    }
+    footer{
+        display: flex   ;
+        background-color: black ;
+        color: white;
+    }
+    footer h3{
+        font-size: 230%;
+    }
+    footer p{
+        margin-top: 10%;
+        font-size: x-large;
+    }
+    .mail{
+        margin-left: 150%;
+        margin-top: -10%;
+        font-size: xx-large;
+    }
+    .p-projet{
+        margin-right: 4em;
+        text-align: justify;
+        font-size: x-large;
+        margin-top: 3em;
+
+    }
+    .p-orel{
+        margin-left: 8em;
+    }
+    .s-home{
+        margin-left: -8em;
+    }
+    .freshy{
+        margin-left: 7em;
+    }
+    .imgfrsh{
+        padding-left: 8em;
+    }
+    .modelisation{
+        display: flex;
+    }
+    .h2-projet{
+        text-decoration: underline;
+        text-align: center;
+        font-size: xx-large;
+        margin-bottom: 2em;
+        margin-top: 2em;
+    }
+    .ced{
+        display: flex;
+    }
+    .JV {
+        display: flex;
+    }
+    .CDI{
+        display: flex;
+    }
+    .CDEB{
+        display: flex;
+    }
+    img {
+        margin-left: 2em;
+        width: 70%;
+    }
+    .div1{
+        margin: 10em auto;
+        width: 20em ;
+        background-color: #f7e35f;
+    }
+    .boite{
+        transform: rotate(15deg) scale(1);
+    }
+    .p-aprop{
+        text-align: center;
+    }
+
+    
+}
+
+.btn2 {
+    padding-top: 0.2em;
+    color: grey;
+}
+
+#list {
+    list-style-type: none;
+    font-size: xx-large;
+    padding-left: 35%;
+}
+
+.animationErreurJaune {
+
+    transform: translateX(100px);
+}
+
+.boite div1 {
+    transition: all 2s;
+}
